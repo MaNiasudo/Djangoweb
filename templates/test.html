@@ -1,4 +1,4 @@
-
+{% load blog_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  <p>{{post.title}}</p>
-  <p>{{post.content}}</p>
+    {% popularposts %}
 </body>
 </html>
